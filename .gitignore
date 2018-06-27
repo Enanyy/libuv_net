@@ -1,0 +1,7 @@
+/[Xx]64/
+/.vs
+*.sdf
+*.opensdf
+*.sdf
+*.db
+*.opendb

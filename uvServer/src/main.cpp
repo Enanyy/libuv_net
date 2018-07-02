@@ -7,6 +7,11 @@
 #include "uv_tcp_client.h"
 #include "uv_udp_client.h"
 
+#ifdef _MSC_VER
+
+#pragma comment(lib,"net.lib")
+#endif // _MSC_VER
+
 using namespace std;
 using namespace uv;
 

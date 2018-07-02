@@ -13,30 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="net">
-      <UniqueIdentifier>{052eed28-7b75-405a-b8eb-e23a253df929}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\uvServer\net\uv_tcp_client.cpp">
-      <Filter>net</Filter>
-    </ClCompile>
-    <ClCompile Include="..\uvServer\net\uv_udp_client.cpp">
-      <Filter>net</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\uvServer\net\uv_net.h">
-      <Filter>net</Filter>
-    </ClInclude>
-    <ClInclude Include="..\uvServer\net\uv_tcp_client.h">
-      <Filter>net</Filter>
-    </ClInclude>
-    <ClInclude Include="..\uvServer\net\uv_udp_client.h">
-      <Filter>net</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
